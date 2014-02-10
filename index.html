@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>ICICI-ATM Digits Auto Fill</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/style.css" rel="stylesheet" media="screen">
+        <link href="css/socialcount.min.css" rel="stylesheet" media="screen">
+        <link href="css/socialcount-with-icons.min.css" rel="stylesheet" media="screen">
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="hero-unit">
+                <h2 id="header" class="center">ICICI ATM Digits Auto Fill</h2>
+                <h5 id="desc">This simple tool saves the need of bringing your ICICI ATM card for online
+                    transaction. This is a secure (we don't save your data, right click and
+                    check source code) and time saving tool. Just fill in the digits as in
+                    the back of your card and click the create button. Drag the generated button
+                    to your browser bookmark bar. And the next time you see the atm digit fields,
+                    just click the bookmarklet.</h5>
+                <ul class="socialcount socialcount-small recommend grade-a center"
+                data-url="https://plus.google.com/share?url=novicelab.org/tools/iciciautofill"
+                data-facebook-action="recommend">
+                    <li class="facebook">
+                        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=novicelab.org/tools/iciciautofill"
+                        title="Share on Facebook"><span class="social-icon icon-facebook"></span><span class="count"></span></a>
+                    </li>
+                    <li class="twitter">
+                        <a target="_blank" href="https://twitter.com/intent/tweet?text=novicelab.org/tools/iciciautofill"
+                        title="Share on Twitter"><span class="social-icon icon-twitter"></span><span class="count"></span></a>
+                    </li>
+                    <li class="googleplus">
+                        <a target="_blank" href="https://plus.google.com/share?url=novicelab.org/tools/iciciautofill"
+                        title="Share on Google Plus"><span class="social-icon icon-googleplus"></span><span class="count"></span></a>
+                    </li>
+                </ul>
+                <table class="table" id="digitTable">
+                    <tbody>
+                        <tr>
+                            <td>A</td>
+                            <td>
+                                <input class="span1" id="Digit(1)" type="text">
+                            </td>
+                            <td>B</td>
+                            <td>
+                                <input class="span1" id="Digit(2)" type="text">
+                            </td>
+                            <td>C</td>
+                            <td>
+                                <input class="span1" id="Digit(3)" type="text">
+                            </td>
+                            <td>D</td>
+                            <td>
+                                <input class="span1" id="Digit(4)" type="text">
+                            </td>
+                            <td>E</td>
+                            <td>
+                                <input class="span1" id="Digit(5)" type="text">
+                            </td>
+                            <td>F</td>
+                            <td>
+                                <input class="span1" id="Digit(6)" type="text">
+                            </td>
+                            <td>G</td>
+                            <td>
+                                <input class="span1" id="Digit(7)" type="text">
+                            </td>
+                            <td>H</td>
+                            <td>
+                                <input class="span1" id="Digit(8)" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>I</td>
+                            <td>
+                                <input class="span1" id="Digit(9)" type="text">
+                            </td>
+                            <td>J</td>
+                            <td>
+                                <input class="span1" id="Digit(10)" type="text">
+                            </td>
+                            <td>K</td>
+                            <td>
+                                <input class="span1" id="Digit(11)" type="text">
+                            </td>
+                            <td>L</td>
+                            <td>
+                                <input class="span1" id="Digit(12)" type="text">
+                            </td>
+                            <td>M</td>
+                            <td>
+                                <input class="span1" id="Digit(13)" type="text">
+                            </td>
+                            <td>N</td>
+                            <td>
+                                <input class="span1" id="Digit(14)" type="text">
+                            </td>
+                            <td>O</td>
+                            <td>
+                                <input class="span1" id="Digit(15)" type="text">
+                            </td>
+                            <td>P</td>
+                            <td>
+                                <input class="span1" id="Digit(16)" type="text">
+                            </td>
+                        </tr>
+                    </tbody>
+                    <caption>Enter your ICICI ATM card digits</caption>
+                </table>
+                <p class="center">
+                    <a class="btn btn-large btn-inverse" id="doneBtn"><i class="icon-white icon-plus-sign"></i> Create BookMarklet!</a>
+                    <a class="btn btn-large btn-inverse" id="clrBtn"><i class="icon-white icon-trash"></i> Clear All</a>
+                </p>
+                <p class="center">
+                    <div id="generatedBM" class="center"></div>
+                </p>
+                <h5 id="desc">Novicelab.org. Follow me
+                    <a target="_blank" href="http://www.twitter.com/shivrajrath">@shivrajrath</a>. Read more or post any comments about the tool
+                    <a target="_blank" href="">here</a>
+                </h5>
+            </div>
+        </div>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/socialcount.min.js"></script>
+        <script src="js/handle.js"></script>
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-36806917-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </body>
+
+</html>

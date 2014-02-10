@@ -1,0 +1,24 @@
+body{
+    font-family: 'Segoe UI';   
+}
+.container {
+    padding: 2%;
+}
+.center {
+    text-align: center;
+}
+.hidden {
+    visibility: hidden;
+}
+#generatedBM {
+    padding-top: 1%;
+}
+#header{
+    padding-bottom: 1%;
+}
+.btn-large [class^="icon-"], .btn-large [class*=" icon-"] {
+    margin-top: 6px;
+}
+#desc{
+    color: grey;   
+}

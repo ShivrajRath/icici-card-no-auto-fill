@@ -1,0 +1,7 @@
+1. Mandatory Check and digit check on click of create.
+2. Create Nav Bar
+3. Add
+    Analytics
+    Comments
+    Twitter/Facebook like
+4. Security threat not there.
